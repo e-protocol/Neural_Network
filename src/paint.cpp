@@ -76,8 +76,6 @@ Paint::Paint(QWidget *parent) :
 Paint::~Paint()
 {
     delete ui;
-    delete timer;
-    delete scene;
 }
 
 void Paint::slotTimer()
